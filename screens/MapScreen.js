@@ -1,10 +1,14 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-
+import tw from "tailwind-react-native-classnames";
+import Maps from "../components/Maps";
 const MapScreen = () => {
   return (
     <View>
-      <Text>this is map screen</Text>
+      <View style={tw`h-1/2`}>
+        <Maps />
+      </View>
+      <View style={tw`h-1/2`}></View>
     </View>
   );
 };
