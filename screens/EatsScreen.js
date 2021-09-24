@@ -1,14 +1,14 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-const MapScreen = () => {
+const EatsScreen = () => {
   return (
     <View>
-      <Text>this is map screen</Text>
+      <Text>this is uber eats screen</Text>
     </View>
   );
 };
 
-export default MapScreen;
+export default EatsScreen;
 
 const styles = StyleSheet.create({});
